@@ -1,0 +1,79 @@
+<form>
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="fname  "#fname>
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lname" #lname>
+  <label for="IdNo">Identification No</label>
+  <input type="text" id="IdNo" name="IdNo"    #IdNo>
+  <label for="Race">Race</label>
+  <select #Race>
+    <option></option>
+    <option>African</option>
+    <option>Coloured</option>
+    <option>Caucasian</option>
+    <option>Indian</option>
+    <option>Other</option>
+  </select>
+  <label for="Gender">Gender</label>
+  <select #Gender>
+    <option></option>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Other</option>
+  </select>
+  <label for="Nationality">Nationality</label> 
+  <select #Nationality>
+    <option></option>
+    <option> Mauretanian</option>
+    <option> Mauritian</option>
+    <option>Moroccan</option>
+    <option>Mozambiquean</option>
+    <option>Namibianv</option>
+    <option>Nigerian</option>
+    <option>Senegalese</option>
+    <option>Seychellois</option>
+    <option>Sierra Leonean</option>
+    <option> Somali</option>
+    <option>South African</option>
+    <option>Sudanese</option>
+    <option>Swazi</option>
+    <option>Tanzanian</option>
+    <option> Togolese</option>
+    <option> Tunisian</option>
+    <option> Ugandan</option>
+    <option> Zambian</option>
+    <option> Zimbabwean</option>
+  </select>
+  <label for="Language"#Language>Language</label>
+  <input type="text" id="Language" name="Language"#Language>
+  <label for="StreetAdress"#StreetAdress>Street Adress</label>
+  <input type="text" id="StreetAdress" name="StreetAdress"#StreetAdress>
+  <label for="Province"#Province>Province</label>
+  <input type="text" id="Province" name="Province"#Province>
+  <label for="PostalCode"#PostalCode>PostalCode</label>
+  
+  <input type="text" id="PostalCode" name="PostalCode" #PostalCode>
+ 
+  <label for="Code">Code</label>
+  <select #Code>
+    <option></option>
+    <option>A1</option>
+    <option>A</option>
+    <option>B</option>
+    <option>EB</option>
+    <option>C1</option>
+    <option>C</option>
+    <option>EC1</option>
+    <option>EC</option>
+  </select>
+  <label for="TelephoneNo"#Telephone>Telephone Number</label>
+  <input type="text" id="TelephoneNo" name="TelephoneNo"#TelephoneNo>
+  <label for="EmailAddress"#EmailAdress>EmailAddress</label>
+  
+  <input type="text" id="EmailAddress" name="EmailAddress"#EmailAddress>
+  
+  
+  <a routerLink="/Report"> <button type="submit" value="submit" (click)="Submitfunc(fname.value,lname.value,IdNo.value,Race.value,
+    Gender.value,Nationality.value,Language.value, StreetAdress.value,Province.value, PostalCode.value,Code.value,TelephoneNo.value,EmailAddress.value)">Submit</button> </a>
+
+</form>
